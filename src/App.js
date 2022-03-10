@@ -1,5 +1,4 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import RatingSelect from "./components/RatingSelect"
 import Header from "./components/Header"
 import FeedBackList from "./components/FeedBackList"
 import FeedbackStats from "./components/FeedbackStats"
@@ -7,7 +6,7 @@ import FeedbackForm from "./components/FeedbackForm"
 import AboutIconLink from './components/AboutIconLink'
 import AboutPage from './pages/AboutPage'
 import Post from './components/Post'
-import {FeedbackProvider} from './context/FeedbackContext'
+import {FeedbackProvider} from './Context/FeedbackContext'
 
 function App() {
     return(
